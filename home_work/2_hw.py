@@ -16,7 +16,7 @@ def task_1() -> str:
 task_1()
 
 
-# # через цикл
+# через цикл
 # def task_1() -> str:
 #     a: int = 5
 #     b: float = 3.6

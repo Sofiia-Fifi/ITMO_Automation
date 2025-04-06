@@ -64,17 +64,17 @@ five_list([1, 2, 5, 6, 7])
 # Задача 6*
 
 def days_in_years(y: int, m: int):
-    if y >0 and m == (1, 13):
+    if y >0 and m in range (1, 13):
         days_count = y * m * 29
         print (days_count)
-    elif y==0 and m == (1, 13):
+    elif y==0 and m in range (1, 13):
         days_count = m * 29
         print (days_count)
-    elif y >0 and m == 0:
+    elif y >=0 and m == 0:
         days_count = y*12*29
         print (days_count)
     else:
         print('Введите корректные данные: год - не меньше 0, месяц - от 1 до 12')
 
 
-days_in_years(5, 13)
+days_in_years(5, 6)
